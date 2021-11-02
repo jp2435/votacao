@@ -41,7 +41,7 @@ function reset(){
         contagem_1.innerHTML = 0
     }
 }
-document.addEventListener("keydown", function(event){
+document.addEventListener("keyup", function(event){
     if(event.key == 'a' || event.key == 'A'){
         votar_0()
     }else if(event.key == 'b' || event.key == 'B'){
