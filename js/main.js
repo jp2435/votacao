@@ -51,7 +51,7 @@ function votar_nulo(){
     contagem_total()
 }
 
-function contagem_total(a){
+function contagem_total(){
     let num = Number(total_span.innerHTML)
     num += 1
     localStorage.votos_total = num
