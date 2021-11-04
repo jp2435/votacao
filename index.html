@@ -34,6 +34,9 @@
         #reset{
             margin: 20px;
         }
+        #total{
+            font-size: 20px;
+        }
     </style>
 </head>
 <body>
@@ -61,7 +64,8 @@
             <button id="button_nulo">Votar Nulo</button>
         </div>
         <br>
-        <button id="reset">Apagar dados</button>
+        <button id="reset" tabindex="1">Apagar dados</button>
+        <p id="total">Total de votos: <span id="total_span">0</span></p>
     </section>
     <script src="./js/main.js"></script>
 </body>
